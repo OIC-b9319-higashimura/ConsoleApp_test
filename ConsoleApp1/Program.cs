@@ -10,7 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("ハロー");
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine("ハロー");
+            }
         }
     }
 }
